@@ -67,3 +67,7 @@ As expected, we can see that both tumor samples behave similarly for PC29 and PC
 **K-means Clustering Model**
 
 ![](image/kmeans.jpg)
+
+| MODEL | ACCURACY | SPECIFICITY | SENSITIVITY |
+| --- | --- | --- | --- |
+| K-means | 0.922 | 0.814 | 0.986 |
