@@ -49,6 +49,10 @@ Principal component analysis was performed on the scaled matrix showing the stan
 
 |  | PC24 | PC25 | PC26 | PC27 | PC28 | PC29 | PC30 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-| Standard Deviation | 0.49128 |	0.39624 |	0.30681 |	0.28260 |	0.24372 |	0.22939 | 0.22244 |
-| Proportion of Variance | 0.00805 |	0.00523 | 0.00314 |	0.00266 |	0.00198 |	0.00175 | 0.00165 |
-| Cumulative Proportion | 0.97812 |	0.98335 |	0.98649 |	0.98915 |	0.99113 |	0.99288 | 0.99453 |
+| Standard Deviation | 0.1344 |	0.12442 |	0.09043	| 0.08307 | 0.03987 |	0.02736	| 0.0115 |
+| Proportion of Variance | 0.0006 |	0.00052 |	0.00027 |	0.00023 | 0.00005 |	0.00002 |	0.0000 |
+| Cumulative Proportion | 0.9989 |	0.99942 |	0.99969	| 0.99992 | 0.99997 |	1.00000 |	1.0000 |
+
+![](image/PCplot.jpeg)
+
+As shown in the figure above, we can see that Malignant tumors tend to have larger values of PC1 and PC2 than benign tumors.
