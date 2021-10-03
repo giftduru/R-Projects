@@ -20,3 +20,17 @@ The first step to this analysis was to standardize and scale the matrix of numer
 This was done through the following steps;
 
 ![](image/scale.png)
+
+By careful examination and preprocessing, relevant features were selected and used to train a model to predict the diagnosis of each tumor samples. In other to select the relevant features for prediction, it is important to identity features that do not have a strong correlation with each other. For the numerical variables, this was done by using a correlation heatmap
+
+![](image/rlcode.png)
+
+![](image/heatmap.jpeg)
+
+Visualizing the correlation between the numerical features using the correlation heatmap above, I decided to select 30 variables as they were the variables that were least correlated with each other. Furthermore, I also performed hierarchical clustering on the 30 features to determine their relationship.
+
+![](image/hclcode.png)
+
+![](image/hclust_plot.jpeg)
+
+Principal component analysis was performed on the scaled matrix showing the standard deviation, proportion of variance, and the cumulative proportion. The first and last two principal components were plotted in a scattered plot as well as a boxplot to show the relationship between themselves and the tumor type.
