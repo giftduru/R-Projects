@@ -86,3 +86,33 @@ In terms of variable importance for this model, the top 5 most important variabl
 | MODEL | ACCURACY | SPECIFICITY | SENSITIVITY |
 | --- | --- | --- | --- |
 | Logistic Regression | 0.957 | 0.977 | 0.944 |
+
+**LDA Model**
+
+![](image/lda.jpg)
+
+In terms of variable importance for this model, the top 5 most important variables used for the fit and prediction were;
+-	Perimeter_worst (100%)
+-	Radius_worst (98.62%)
+-	Area_worst (98.59%)
+-	Concave_pts_worst (97.66%)
+-	Concave_pts_mean (97.27%)
+
+| MODEL | ACCURACY | SPECIFICITY | SENSITIVITY |
+| --- | --- | --- | --- |
+| LDA | 0.991 | 0.977 | 1.000 |
+
+**QDA Model**
+
+![](image/qda.jpg)
+
+In terms of variable importance for this model, the top 5 most important variables used for the fit and prediction were;
+-	Perimeter_worst (100%)
+-	Radius_worst (98.62%)
+-	Area_worst (98.59%)
+-	Concave_pts_worst (97.66%)
+-	Concave_pts_mean (97.27%)
+
+| MODEL | ACCURACY | SPECIFICITY | SENSITIVITY |
+| --- | --- | --- | --- |
+| QDA | 0.957 | 0.930 | 0.972 |
