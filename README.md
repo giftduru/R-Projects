@@ -34,3 +34,16 @@ Visualizing the correlation between the numerical features using the correlation
 ![](image/hclust_plot.jpeg)
 
 Principal component analysis was performed on the scaled matrix showing the standard deviation, proportion of variance, and the cumulative proportion. The first and last two principal components were plotted in a scattered plot as well as a boxplot to show the relationship between themselves and the tumor type.
+
+|  | PC1 | PC2 | PC3 | PC4 | PC5 | PC6 | PC7 | PC8 | PC9 | PC10 | PC11 | PC12 |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | ---- | ---- | ---- | ---- |
+| Standard Deviation | 3.644 | 2.386 | 1.6787 |	1.407 |	1.284 |	1.0988 |	0.8217 |	0.6904 |	0.6457 | 0.5922 | 0.5421 |	0.51104 |
+| Proportion of Variance | 3.644 | 3.644 | 3.644 | 3.644 | 3.644 | 3.644 | 3.644 | 3.644 | 3.644 | 3.644 | 3.644 | 3.644 |
+| Cumulative Proportion | 3.644 | 3.644 | 3.644 | 3.644 | 3.644 | 3.644 | 3.644 | 3.644 | 3.644 | 3.644 | 3.644 | 3.644 |
+
+|  | PC13 | PC14 | PC15 | PC16 | PC17 | PC18 | PC19 | PC20 | PC21 | PC22 | PC23 | PC24 |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | ---- | ---- | ---- | ---- |
+| Standard Deviation | 3.644 | 2.386 | 1.6787 |	1.407 |	1.284 |	1.0988 |	0.8217 |	0.6904 |	0.6457 | 0.5922 | 0.5421 |	0.51104 |
+| Proportion of Variance | 3.644 | 3.644 | 3.644 | 3.644 | 3.644 | 3.644 | 3.644 | 3.644 | 3.644 | 3.644 | 3.644 | 3.644 |
+| Cumulative Proportion | 3.644 | 3.644 | 3.644 | 3.644 | 3.644 | 3.644 | 3.644 | 3.644 | 3.644 | 3.644 | 3.644 | 3.644 |
+
