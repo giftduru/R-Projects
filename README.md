@@ -116,3 +116,30 @@ In terms of variable importance for this model, the top 5 most important variabl
 | MODEL | ACCURACY | SPECIFICITY | SENSITIVITY |
 | --- | --- | --- | --- |
 | QDA | 0.957 | 0.930 | 0.972 |
+
+**Loess Model**
+
+![](image/loess.jpg)
+
+| MODEL | ACCURACY | SPECIFICITY | SENSITIVITY |
+| --- | --- | --- | --- |
+| Loess | 0.983 | 0.977 | 0.986 |
+
+**K-Nearest Neighbors**
+
+![](image/knn.JPG)
+
+In terms of variable importance for this model, the top 5 most important variables used for the fit and prediction were;
+-	Perimeter_worst (100%)
+-	Radius_worst (98.62%)
+-	Area_worst (98.59%)
+-	Concave_pts_worst (97.66%)
+-	Concave_pts_mean (97.27%)
+
+![](image/Kplot.jpeg)
+
+As shown in the figure above, the optimal value of K is 17 which gives an accuracy of almost 95%.
+
+| MODEL | ACCURACY | SPECIFICITY | SENSITIVITY |
+| --- | --- | --- | --- |
+| K Nearest Neighbors | 0.957 | 0.907 | 0.986 |
