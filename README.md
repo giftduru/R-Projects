@@ -56,3 +56,11 @@ Principal component analysis was performed on the scaled matrix showing the stan
 ![](image/PCplot.jpeg)
 
 As shown in the figure above, we can see that Malignant tumors tend to have larger values of PC1 and PC2 than benign tumors.
+
+![](image/Last2PCplot.jpeg)
+
+As expected, we can see that both tumor samples behave similarly for PC29 and PC30 with values being closer to zero. The boxplot below shows similarity between the tumor type in almost all PCs except PC1 where there is no overlap in the interquartile ranges for both samples.
+
+![](image/PCboxplot.jpeg)
+
+**MODEL PREDICTION**
