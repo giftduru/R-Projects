@@ -143,3 +143,44 @@ As shown in the figure above, the optimal value of K is 17 which gives an accura
 | MODEL | ACCURACY | SPECIFICITY | SENSITIVITY |
 | --- | --- | --- | --- |
 | K Nearest Neighbors | 0.957 | 0.907 | 0.986 |
+
+**Random Forest**
+
+![](image/rf.jpg)
+
+In terms of variable importance for this model, the top 5 most important variables used for the fit and prediction were;
+-	Area_worst (100%)
+-	Radius_worst (87.74%)
+-	Concave_pts_worst (85.68%)
+-	Perimeter_worst (85.46%)
+-	Concave_pts_mean (72.10%)
+
+![](image/mtryplot.jpeg)
+
+As shown in the figure above, the optimal value of Mtry is 3 which gives an accuracy of over 95%.
+
+| MODEL | ACCURACY | SPECIFICITY | SENSITIVITY |
+| --- | --- | --- | --- |
+| Random Forest | 0.974 | 0.930 | 1.000 |
+
+**Ensemble**<br />
+The final predictive model was an ensemble that was created from the 7 models used in this project: k-means, logistic regression, LDA, QDA, loess, k-nearest neighbors, and random forest. The logic used was to generate a majority prediction of the tumor type from the other models when assembled together i.e., if most models suggest the tumor is malignant, then we predict malignant.
+
+![](image/ens.jpg)
+
+| MODEL | ACCURACY | SPECIFICITY | SENSITIVITY |
+| --- | --- | --- | --- |
+| Ensemble | 0.983 | 0.953 | 1.000 |
+
+Compiling the results of all the Models
+
+| MODEL | ACCURACY | SPECIFICITY | SENSITIVITY |
+| --- | --- | --- | --- |
+| K-means | 0.922 | 0.814 | 0.986 |
+| Logistic Regression | 0.957 | 0.977 | 0.944 |
+| LDA | 0.991 | 0.977 | 1.000 |
+| QDA | 0.957 | 0.930 | 0.972 |
+| Loess | 0.983 | 0.977 | 0.986 |
+| K Nearest Neighbors | 0.957 | 0.907 | 0.986 |
+| Random Forest | 0.974 | 0.930 | 1.000 |
+| Ensemble | 0.983 | 0.953 | 1.000 |
