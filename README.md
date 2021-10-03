@@ -1,8 +1,8 @@
 # Breast Cancer Diagnosis Biopsy Prediction
 
-Machine Learning: Predicting Breast Cancer Diagnosis Using Multiple Techniques<br />
-Tools: R (Dslabs, Caret, Tidyverse, MatrixStats, Gam)<br />
-Data Source: Dslabs<br />
+**Machine Learning:** Predicting Breast Cancer Diagnosis Using Multiple Techniques<br />
+**Tools:** R (Dslabs, Caret, Tidyverse, MatrixStats, Gam)<br />
+**Data Source:** Dslabs<br />
 <br />
 
 **CONTENT**
