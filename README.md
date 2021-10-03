@@ -71,3 +71,18 @@ As expected, we can see that both tumor samples behave similarly for PC29 and PC
 | MODEL | ACCURACY | SPECIFICITY | SENSITIVITY |
 | --- | --- | --- | --- |
 | K-means | 0.922 | 0.814 | 0.986 |
+
+**Logistic Regression Model**
+
+![](image/glm.jpg)
+
+In terms of variable importance for this model, the top 5 most important variables used for the fit and prediction were;
+-	Concave_pts_se (100%)
+-	Compactness_mean (89.82%)
+-	Radius_worst (82.56%)
+-	Concavity_worst (74.48%)
+-	Fractal_dim_se (72.10%)
+
+| MODEL | ACCURACY | SPECIFICITY | SENSITIVITY |
+| --- | --- | --- | --- |
+| Logistic Regression | 0.957 | 0.977 | 0.944 |
