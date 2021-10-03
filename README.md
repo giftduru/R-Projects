@@ -10,7 +10,7 @@ Data Source: Dslabs<br />
 - Machine Learning Model Building / Training
 -	Prediction / Accuracy
 
-**EXPLORATORY DATA ANALYSIS AND FEATURE SELECTION**<br />
+**EXPLORATORY DATA ANALYSIS AND FEATURE SELECTION**<br /><br />
 Before training and testing a machine learning model, it is important to understand the data to be used. This is the purpose of exploratory data analysis. 
 The training dataset consist of 50 explanatory variables and 1 prediction variable describing if the tumors are benign (not cancer) or malignant (cancer). 
 -	brca$y: a vector of sample classifications ("B" = benign or "M" = malignant)
@@ -63,4 +63,5 @@ As expected, we can see that both tumor samples behave similarly for PC29 and PC
 
 ![](image/PCboxplot.jpeg)
 
-**MODEL PREDICTION**
+**MODEL PREDICTION**<br /><br />
+**K-means Clustering Model**
